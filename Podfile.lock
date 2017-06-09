@@ -1,0 +1,31 @@
+PODS:
+  - Alamofire (4.4.0)
+  - GoogleMaps (2.3.0):
+    - GoogleMaps/Maps (= 2.3.0)
+  - GoogleMaps/Base (2.3.0)
+  - GoogleMaps/Maps (2.3.0):
+    - GoogleMaps/Base
+  - SwiftyVK (2.0.8)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - GoogleMaps
+  - SwiftyVK (from `https://github.com/WE-St0r/SwiftyVK.git`)
+
+EXTERNAL SOURCES:
+  SwiftyVK:
+    :git: https://github.com/WE-St0r/SwiftyVK.git
+
+CHECKOUT OPTIONS:
+  SwiftyVK:
+    :commit: ed375b7a6f64539335627eb898b8bfc1bf0cf6e4
+    :git: https://github.com/WE-St0r/SwiftyVK.git
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  GoogleMaps: 340a6a0bebd17c2db8abcd3921976c7c53c86cb8
+  SwiftyVK: 81d1aa08ee5a5a09d4bd152b0cf1fd4ee46441c6
+
+PODFILE CHECKSUM: 84b4911ebace96f2ff23985cff8531270a68e064
+
+COCOAPODS: 1.2.1
